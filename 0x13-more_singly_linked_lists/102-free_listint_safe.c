@@ -3,7 +3,6 @@
 /**
  * free_listint_safe - Used to free the  linked list
  * @h: Pointes to first node in the linked list
- *
  * Return: The number of the elements in the list free
  */
 size_t free_listint_safe(listint_t **h)
