@@ -20,3 +20,6 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 		De_valu = 2 * De_valu + (b[v] - '0');
 	}
+
+	return (De_valu);
+}
