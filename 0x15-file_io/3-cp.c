@@ -14,6 +14,7 @@ void close_file(int fd);
 char *create_buffer(char *file)
 {
 		char *buffer;
+
 		buffer = malloc(sizeof(char) * 1024);
 		if (buffer == NULL)
 {
@@ -30,6 +31,7 @@ char *create_buffer(char *file)
 void close_file(int fd)
 {
 		int f;
+
 		f = close(fd);
 		if (f == -1)
 {
@@ -52,6 +54,7 @@ void close_file(int fd)
 int main(int argc, char *argv[])
 {
 		int from, to, h, w;
+
 		char *buffer;
 		if (argc != 3)
 {
